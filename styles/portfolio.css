@@ -4,7 +4,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+ main section{
+    margin-top: 13px;
 
+ }
 
 .text-primary{
     color:#FD6E0A;
@@ -143,6 +146,8 @@ main{
 
 .about-info{
     text-align: center;
+    max-width: 180px;
+    max-height: 26px;
     /* padding-bottom: 0;
     padding-top: 0; */
 }
@@ -160,4 +165,68 @@ main{
     font-size: 20px;
     font-weight: 700;
     /* padding-top: 0; */
+}
+
+.What-to-do{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.What-to-do-do{
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-title{
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.what-do-description{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 0;
+}
+
+#what-to-do-description{
+    padding: 30px 150px
+}
+
+/* skill relatef style */
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-descriptiom{
+    /* padding: 30px; */
+text-align:left;
+color:#757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.section-title{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rersume-colume-title{
+color:#474747;
+font-size: 30px;
+font-weight: 700;
 }
