@@ -262,3 +262,33 @@ margin-top: 0px;
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+
+.footer-colum{
+    width: 50%;
+}
+
+.contact input[type='text'], .contact input[type='email'], textarea {
+    display:block;
+    margin-bottom:25px;
+    padding:18px 35px;
+    border-radius:5px;
+    color:#757575;
+    background-color: #fff;
+    border:0;
+    width: 100%;
+
+}
+
+.btn-primary-last{
+    background: #FD6E0A;
+}
